@@ -74,6 +74,7 @@ header .header-bottom .box-header-bottom li a {
   font-size: 16px;
   font-weight: bold;
   line-height: 100px;
+  display: inline-block;
 }
 
 header .header-bottom .box-header-bottom li a:hover,
@@ -198,20 +199,17 @@ header .header-bottom .box-header-bottom input {
 
 footer .footer-top {
   background-image: url(/images/footer-bg.jpg);
-  height: 480px;
-  position: relative;
+  height: 400px;
   background-size: cover;
   background-position: center;
+  padding-right: 30px;
 }
 
-footer .footer-top::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 2;
-  background-image: url(/images/dc-logo-bg.jpg);
+footer .footer-top-db {
+  background-image: url(/images/dc-logo-bg.png);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 footer .footer-bottom {

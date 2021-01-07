@@ -1,8 +1,10 @@
 <footer>
     <div class="footer-top">
-        <div class="container">
+        <div class="footer-top-db">
+            <div class="container">
 
-        </div>
+            </div>
+        </div>    
     </div>
     <div class="footer-bottom">
         <div class="container">
