@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Teko", sans-serif;
 }
 
 .container {
@@ -39,7 +39,7 @@ header .header-top .box-header-top {
 header .header-top .box-header-top a {
   color: #ffffff;
   margin-left: 20px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
 }
 
@@ -71,7 +71,7 @@ header .header-bottom .box-header-bottom li {
 
 header .header-bottom .box-header-bottom li a {
   color: #464646;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 100px;
 }
@@ -110,7 +110,7 @@ header .header-bottom .box-header-bottom input {
   color: #ffffff;
   position: absolute;
   transform: translateY(-50%);
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -142,20 +142,27 @@ header .header-bottom .box-header-bottom input {
      object-position: top;
 }
 
+#home .comics .comics-container .comic .comis-title {
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
 #home .comics .comics-container button {
   padding: 10px 50px;
   background-color: #0282f9;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   outline: 0;
   border: 0;
   margin-top: 30px;
   cursor: pointer;
+  font-family: "Teko", sans-serif;
 }
 
 #home .iconlink {
-  padding: 30px 0px;
+  padding: 50px 0px;
   background-color: #0282f9;
 }
 
@@ -175,7 +182,7 @@ header .header-bottom .box-header-bottom input {
 #home .iconlink .iconlink-box a span {
   margin: 0px 10px;
   color: #ffffff;
-  font-size: 13px;
+  font-size: 18px;
 }
 
 #home .iconlink .iconlink-box .img-box {
@@ -187,5 +194,44 @@ header .header-bottom .box-header-bottom input {
 #home .iconlink .iconlink-box .img-box img {
   width: 100%;
   height: 100%;
+}
+
+footer .footer-bottom {
+  background-color: #303030;
+  padding: 30px 0px;
+}
+
+footer .footer-bottom .footer-bottom-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer-bottom .footer-bottom-box .bottone button {
+  border: 3px solid #0282f9;
+  color: #ffffff;
+  outline: 0;
+  font-size: 20px;
+  background-color: #303030;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-family: "Teko", sans-serif;
+}
+
+footer .footer-bottom .footer-bottom-box .icone {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .footer-bottom .footer-bottom-box .icone span {
+  color: #0282f9;
+  font-weight: bold;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+footer .footer-bottom .footer-bottom-box .icone a {
+  margin-right: 10px;
 }
 
