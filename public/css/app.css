@@ -199,17 +199,61 @@ header .header-bottom .box-header-bottom input {
 
 footer .footer-top {
   background-image: url(/images/footer-bg.jpg);
-  height: 400px;
+  height: 420px;
   background-size: cover;
   background-position: center;
   padding-right: 30px;
 }
 
-footer .footer-top-db {
+footer .footer-top .footer-top-db {
   background-image: url(/images/dc-logo-bg.png);
-  height: 400px;
+  height: 420px;
   background-repeat: no-repeat;
   background-position: right;
+}
+
+footer .footer-top .footer-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+footer .footer-top .footer-menu .voci-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+footer .footer-top .footer-menu .voci-menu .menu {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+footer .footer-top .footer-menu .voci-menu .menu h4 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+footer .footer-top .footer-menu .voci-menu .menu a {
+  color: #959595;
+  font-size: 18px;
+}
+
+footer .footer-top .footer-menu .voci-menu .menu a:hover {
+  color: #0282f9;
+}
+
+footer .footer-top .footer-menu .cookies {
+  color: #959595;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+footer .footer-top .footer-menu .cookies a {
+  color: #0282f9;
 }
 
 footer .footer-bottom {
