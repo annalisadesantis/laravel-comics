@@ -310,7 +310,6 @@ header .header-bottom .box-header-bottom input {
   font-size: 25px;
 }
 #comic-details .comic-details-box .talent ul, #comic-details .comic-details-box .specs ul {
-  list-style-type: none;
   padding: 0;
 }
 #comic-details .comic-details-box .talent ul li, #comic-details .comic-details-box .specs ul li {
@@ -319,7 +318,7 @@ header .header-bottom .box-header-bottom input {
   align-items: flex-start;
   border-top: 1px solid #e3e3e3;
   padding: 10px 0;
-  font-weight: 600;
+  font-size: 18px;
 }
 #comic-details .comic-details-box .talent ul li:last-child, #comic-details .comic-details-box .specs ul li:last-child {
   border-bottom: 1px solid #e3e3e3;
