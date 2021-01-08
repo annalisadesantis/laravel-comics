@@ -1,0 +1,47 @@
+.comic-thumb {
+    background-color: #0182f9;
+    height: 80px;
+
+    .comic-thumb-container {
+        position: relative;
+        padding: 50px 0;
+
+        .comic-thumb-wrapper {
+            position: absolute;
+            bottom: 30px;
+            border: 1px solid #fff;
+
+            span {
+                position: absolute;
+                color: #fff;
+
+                &:first-child{
+                    padding: 3px;
+                    background-color: #126bac;
+                }
+
+                &.comic-type {
+                    top: 0;
+                    left: 0;
+                }
+
+                &.comic-gallery {
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+                    background-color: #00a9d9;
+                }
+            }
+
+            img {
+                display: block;
+            }
+        }
+    }
+}
+
+#comic-details{
+
+
+}
