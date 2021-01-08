@@ -28,47 +28,39 @@ a {
 header .header-top {
   background-color: #0282f9;
 }
-
 header .header-top .box-header-top {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 5px 0px;
 }
-
 header .header-top .box-header-top a {
   color: #ffffff;
   margin-left: 20px;
   font-size: 15px;
   font-weight: 500;
 }
-
 header .header-bottom {
   border-bottom: 1px solid #ebebeb;
 }
-
 header .header-bottom .box-header-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 header .header-bottom .box-header-bottom .logo {
   width: 80px;
   height: 80px;
   margin: 10px 0px;
 }
-
 header .header-bottom .box-header-bottom .logo img {
   width: 100%;
   height: 100%;
 }
-
 header .header-bottom .box-header-bottom li {
   display: inline-block;
   margin: 0px 10px;
 }
-
 header .header-bottom .box-header-bottom li a {
   color: #464646;
   font-size: 16px;
@@ -76,13 +68,10 @@ header .header-bottom .box-header-bottom li a {
   line-height: 100px;
   display: inline-block;
 }
-
-header .header-bottom .box-header-bottom li a:hover,
-header .header-bottom .box-header-bottom li a.active {
+header .header-bottom .box-header-bottom li a:hover, header .header-bottom .box-header-bottom li a.active {
   color: #0282f9;
   border-bottom: 3px solid #0282f9;
 }
-
 header .header-bottom .box-header-bottom input {
   border: 0px;
   border-bottom: 3px solid #0282f9;
@@ -99,12 +88,10 @@ header .header-bottom .box-header-bottom input {
   background-position: top;
   background-size: cover;
 }
-
 #home .comics {
   background-color: #1c1c1c;
   position: relative;
 }
-
 #home .comics small {
   padding: 10px 30px;
   background-color: #0282f9;
@@ -114,26 +101,22 @@ header .header-bottom .box-header-bottom input {
   font-size: 18px;
   font-weight: bold;
 }
-
 #home .comics .comics-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 40px 0px;
 }
-
 #home .comics .comics-container .comic {
   width: 170px;
   color: #ffffff;
   text-align: center;
   font-weight: bold;
 }
-
 #home .comics .comics-container .comic .comic-image {
   width: 170px;
   height: 170px;
 }
-
 #home .comics .comics-container .comic .comic-image img {
   width: 100%;
   height: 100%;
@@ -142,13 +125,11 @@ header .header-bottom .box-header-bottom input {
   -o-object-position: top;
      object-position: top;
 }
-
 #home .comics .comics-container .comic .comis-title {
   margin-top: 10px;
   font-weight: normal;
   font-size: 18px;
 }
-
 #home .comics .comics-container button {
   padding: 10px 50px;
   background-color: #0282f9;
@@ -161,37 +142,31 @@ header .header-bottom .box-header-bottom input {
   cursor: pointer;
   font-family: "Teko", sans-serif;
 }
-
 #home .iconlink {
   padding: 50px 0px;
   background-color: #0282f9;
 }
-
 #home .iconlink .iconlink-box {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 #home .iconlink .iconlink-box a {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0px 20px;
 }
-
 #home .iconlink .iconlink-box a span {
   margin: 0px 10px;
   color: #ffffff;
   font-size: 18px;
 }
-
 #home .iconlink .iconlink-box .img-box {
   width: 50px;
   height: 55px;
   display: inline-block;
 }
-
 #home .iconlink .iconlink-box .img-box img {
   width: 100%;
   height: 100%;
@@ -202,71 +177,58 @@ footer .footer-top {
   height: 420px;
   background-size: cover;
   background-position: center;
-  padding-right: 30px;
 }
-
 footer .footer-top .footer-top-db {
   background-image: url(/images/dc-logo-bg.png);
   height: 420px;
   background-repeat: no-repeat;
   background-position: right;
 }
-
 footer .footer-top .footer-menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
-
 footer .footer-top .footer-menu .voci-menu {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
 }
-
 footer .footer-top .footer-menu .voci-menu .menu {
   margin-right: 20px;
   margin-top: 20px;
 }
-
 footer .footer-top .footer-menu .voci-menu .menu h4 {
   text-transform: uppercase;
   color: #ffffff;
   font-size: 22px;
   font-weight: bold;
 }
-
 footer .footer-top .footer-menu .voci-menu .menu a {
   color: #959595;
   font-size: 18px;
 }
-
 footer .footer-top .footer-menu .voci-menu .menu a:hover {
   color: #0282f9;
 }
-
 footer .footer-top .footer-menu .cookies {
   color: #959595;
   font-size: 18px;
   margin-top: 20px;
 }
-
 footer .footer-top .footer-menu .cookies a {
   color: #0282f9;
 }
-
 footer .footer-bottom {
   background-color: #303030;
   padding: 30px 0px;
 }
-
 footer .footer-bottom .footer-bottom-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 footer .footer-bottom .footer-bottom-box .bottone button {
   border: 3px solid #0282f9;
   color: #ffffff;
@@ -277,21 +239,45 @@ footer .footer-bottom .footer-bottom-box .bottone button {
   padding: 10px 20px;
   font-family: "Teko", sans-serif;
 }
-
 footer .footer-bottom .footer-bottom-box .icone {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 footer .footer-bottom .footer-bottom-box .icone span {
   color: #0282f9;
   font-weight: bold;
   font-size: 25px;
   margin-right: 20px;
 }
-
 footer .footer-bottom .footer-bottom-box .icone a {
   margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
 }
-
+footer .footer-bottom .footer-bottom-box .icone a.facebook {
+  background-image: url("/images/footer-facebook.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer .footer-bottom .footer-bottom-box .icone a.twitter {
+  background-image: url("/images/footer-twitter.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer .footer-bottom .footer-bottom-box .icone a.youtube {
+  background-image: url("/images/footer-youtube.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer .footer-bottom .footer-bottom-box .icone a.pinterest {
+  background-image: url("/images/footer-pinterest.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer .footer-bottom .footer-bottom-box .icone a.periscope {
+  background-image: url("/images/footer-periscope.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}

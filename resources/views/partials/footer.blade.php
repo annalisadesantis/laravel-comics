@@ -1,7 +1,7 @@
 <footer>
     <div class="footer-top">
-        <div class="footer-top-db">
-            <div class="container">
+        <div class="container">
+            <div class="footer-top-db">
                 <div class="footer-menu">
                     <div class="voci-menu">
                         <div class="menu">
@@ -183,20 +183,20 @@
                     <span class="uppercase">
                         follow us
                     </span>
-                    <a href="#">
-                        <img src="{{ asset('images/footer-facebook.png')}}" alt="">
+                    <a href="#" class="facebook">
+
                     </a>
-                    <a href="#">
-                        <img src="{{ asset('images/footer-twitter.png')}}" alt="">
+                    <a href="#" class="twitter">
+
                     </a>
-                    <a href="#">
-                        <img src="{{ asset('images/footer-youtube.png')}}" alt="">
+                    <a href="#" class="youtube">
+
                     </a>
-                    <a href="#">
-                        <img src="{{ asset('images/footer-pinterest.png')}}" alt="">
+                    <a href="#" class="pinterest">
+
                     </a>
-                    <a href="#">
-                        <img src="{{ asset('images/footer-periscope.png')}}" alt="">
+                    <a href="#" class="periscope">
+                        
                     </a>
                 </div>
             </div>

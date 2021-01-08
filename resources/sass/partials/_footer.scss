@@ -4,7 +4,6 @@ footer{
         height: 420px;
         background-size: cover;
         background-position: center;
-        padding-right: 30px;
 
         .footer-top-db {
             background-image: url(/images/dc-logo-bg.png);
@@ -88,8 +87,18 @@ footer{
 
                 a{
                     margin-right: $small_space;
+                    width: 35px;
+                    height: 35px;
+                    display: inline-block;
                 }
 
+                @each $icon in $footer_social{
+                    a.#{$icon}{
+                        background-image: url('/images/footer-#{$icon}.png');
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+                }
             }
         }
     }
