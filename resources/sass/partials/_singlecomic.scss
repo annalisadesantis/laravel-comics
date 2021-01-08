@@ -1,4 +1,4 @@
-.comic-thumb {
+#comic-thumb {
     background-color: #0182f9;
     height: 80px;
 
@@ -42,6 +42,80 @@
 }
 
 #comic-details{
+    background-color: $text_color2;
 
+    .comic-details-box{
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0;
 
+        .info{
+            margin-top: $big_space;
+            margin-right: $small_space;
+            display: flex;
+            flex-direction: column;
+
+            h1{
+                color: #003f5e;
+                font-size: 30px;
+            }
+
+            p{
+                color: $text_color1;
+                font-size: 18px;
+                line-height: 25px;
+                margin-top: $big_space;
+            }
+
+            .details{
+                @include flex-row(space-between,center);
+                background-color: #55ba59;
+                margin-top: $big_space;
+                border-bottom: 1px solid #357739;
+                height: 50px;
+                padding: 0px 15px;
+
+                .price{
+                    flex-grow: 1;
+                }
+
+                .available{
+                    height: 100%;
+                    @include flex-row(center,center);
+                    padding-right: 15px;
+                    border-right: 1px solid #357739;
+                }
+                .check{
+                    margin-left: 30px;
+                }
+
+                span{
+                    color: $text_color2;
+                    font-size: 18px;
+                    cursor: pointer;
+
+                    &.light{
+                        color: #aff695;
+
+                    }
+
+                    i{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+
+        .adv{
+            @include flex-column(column,flex-start,flex-end);
+            margin-top: $big_space;
+            margin-left: $small_space;
+
+            h5{
+                margin: $small_space 0px;
+                color: $text_color1;
+                font-size: 18px;
+            }
+        }
+    }
 }

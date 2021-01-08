@@ -4,7 +4,7 @@
 {{-- contenuti --}}
 @section("content")
     @include("partials.jumbtron")
-    <section class="comic-thumb">
+    <section id="comic-thumb">
         <div class="small-container">
             <div class="comic-thumb-container">
                 <div class="comic-thumb-wrapper">
@@ -20,6 +20,45 @@
         </div>
     </section>
     <section id="comic-details">
-
+        <div class="small-container">
+            <div class="comic-details-box">
+                <div class="info">
+                    <div class="title">
+                        <h1 class="uppercase">
+                            {{ $comic['title'] }}
+                        </h1>
+                    </div>
+                    <div class="details">
+                        <div class="price">
+                            <span>
+                                U.S. Price: {{ $comic['price'] }}
+                            </span>
+                        </div>
+                        <div class="available">
+                            <span class="uppercase light">
+                                Available
+                            </span>
+                        </div>
+                        <div class="check">
+                            <span>
+                                Check Availability
+                                <i class="fas fa-caret-down"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>
+                            {{ $comic['description'] }}
+                        </p>
+                    </div>
+                </div>
+                <div class="adv">
+                    <h5 class="uppercase">
+                        Advertisement
+                    </h5>
+                    <img src="{{ asset('/images/adv.jpg') }}" alt="adv">
+                </div>
+            </div>
+        </div>
     </section>
 @endsection
