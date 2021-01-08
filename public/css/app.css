@@ -216,31 +216,31 @@ header .header-bottom .box-header-bottom input {
   display: block;
 }
 
-#comic-details {
+#comic-info {
   background-color: #ffffff;
 }
-#comic-details .comic-details-box {
+#comic-info .comic-details-box {
   display: flex;
   justify-content: space-between;
   padding: 40px 0;
 }
-#comic-details .comic-details-box .info {
+#comic-info .comic-details-box .info {
   margin-top: 20px;
   margin-right: 10px;
   display: flex;
   flex-direction: column;
 }
-#comic-details .comic-details-box .info h1 {
+#comic-info .comic-details-box .info h1 {
   color: #003f5e;
   font-size: 30px;
 }
-#comic-details .comic-details-box .info p {
+#comic-info .comic-details-box .info p {
   color: #464646;
   font-size: 18px;
   line-height: 25px;
   margin-top: 20px;
 }
-#comic-details .comic-details-box .info .details {
+#comic-info .comic-details-box .info .details {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -250,10 +250,10 @@ header .header-bottom .box-header-bottom input {
   height: 50px;
   padding: 0px 15px;
 }
-#comic-details .comic-details-box .info .details .price {
+#comic-info .comic-details-box .info .details .price {
   flex-grow: 1;
 }
-#comic-details .comic-details-box .info .details .available {
+#comic-info .comic-details-box .info .details .available {
   height: 100%;
   display: flex;
   justify-content: center;
@@ -261,21 +261,21 @@ header .header-bottom .box-header-bottom input {
   padding-right: 15px;
   border-right: 1px solid #357739;
 }
-#comic-details .comic-details-box .info .details .check {
+#comic-info .comic-details-box .info .details .check {
   margin-left: 30px;
 }
-#comic-details .comic-details-box .info .details span {
+#comic-info .comic-details-box .info .details span {
   color: #ffffff;
   font-size: 18px;
   cursor: pointer;
 }
-#comic-details .comic-details-box .info .details span.light {
+#comic-info .comic-details-box .info .details span.light {
   color: #aff695;
 }
-#comic-details .comic-details-box .info .details span i {
+#comic-info .comic-details-box .info .details span i {
   font-size: 15px;
 }
-#comic-details .comic-details-box .adv {
+#comic-info .comic-details-box .adv {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -283,10 +283,58 @@ header .header-bottom .box-header-bottom input {
   margin-top: 20px;
   margin-left: 10px;
 }
-#comic-details .comic-details-box .adv h5 {
+#comic-info .comic-details-box .adv h5 {
   margin: 10px 0px;
   color: #464646;
   font-size: 18px;
+}
+
+#comic-details {
+  background-color: #f6f6f6;
+  padding: 60px 0;
+}
+#comic-details .comic-details-box {
+  display: flex;
+}
+#comic-details .comic-details-box .talent {
+  margin-right: 20px;
+}
+#comic-details .comic-details-box .specs {
+  margin-left: 20px;
+}
+#comic-details .comic-details-box .talent, #comic-details .comic-details-box .specs {
+  width: 50%;
+}
+#comic-details .comic-details-box .talent h3, #comic-details .comic-details-box .specs h3 {
+  color: #003f5e;
+  font-size: 25px;
+}
+#comic-details .comic-details-box .talent ul, #comic-details .comic-details-box .specs ul {
+  list-style-type: none;
+  padding: 0;
+}
+#comic-details .comic-details-box .talent ul li, #comic-details .comic-details-box .specs ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-top: 1px solid #e3e3e3;
+  padding: 10px 0;
+  font-weight: 600;
+}
+#comic-details .comic-details-box .talent ul li:last-child, #comic-details .comic-details-box .specs ul li:last-child {
+  border-bottom: 1px solid #e3e3e3;
+}
+#comic-details .comic-details-box .talent ul li span:first-child, #comic-details .comic-details-box .specs ul li span:first-child {
+  min-width: calc(100% / 3);
+  max-width: calc(100% / 3);
+  flex-grow: 1;
+  color: #003f5e;
+}
+#comic-details .comic-details-box .talent ul li span:last-child, #comic-details .comic-details-box .specs ul li span:last-child {
+  flex-grow: 2;
+}
+#comic-details .comic-details-box .talent ul li a, #comic-details .comic-details-box .specs ul li a {
+  color: #0282f9;
 }
 
 footer .footer-top {

@@ -41,7 +41,7 @@
     }
 }
 
-#comic-details{
+#comic-info{
     background-color: $text_color2;
 
     .comic-details-box{
@@ -117,5 +117,66 @@
                 font-size: 18px;
             }
         }
+    }
+}
+
+#comic-details{
+    background-color: #f6f6f6;
+    padding: 60px 0;
+
+    .comic-details-box{
+        display: flex;
+
+        .talent {
+            margin-right: $big_space;
+        }
+
+        .specs {
+            margin-left: $big_space;
+        }
+
+        .talent, .specs{
+            width: 50%;
+
+            h3{
+                color: #003f5e;
+                font-size: 25px;
+            }
+
+            ul {
+                list-style-type: none;
+                padding: 0;
+
+                li {
+                    @include flex-row(flex-start, flex-start);
+                    border-top: 1px solid #e3e3e3;
+                    padding: 10px 0;
+                    font-weight: 600;
+
+                    &:last-child {
+                        border-bottom: 1px solid #e3e3e3;;
+                    }
+
+                    span:first-child {
+                        min-width: calc(100% / 3);
+                        max-width: calc(100% / 3);
+                        flex-grow: 1;
+                        color: #003f5e;
+                    }
+
+                    span:last-child {
+                        flex-grow: 2;
+                    }
+
+                    a {
+                        color: $principal_color;
+                    }
+                }
+            }
+
+        }
+
+
+
     }
 }
