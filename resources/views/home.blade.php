@@ -59,7 +59,7 @@
                         </span>
                     </a>
                     <a href="#">
-                        <div class="img-box">
+                        <div class="img-box position">
                             <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-comics-shop-locator.png" alt="buy-comics-shop-locator">
                         </div>
                         <span class="uppercase">

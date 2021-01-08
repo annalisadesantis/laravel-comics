@@ -175,6 +175,9 @@ header .header-bottom .box-header-bottom input {
   height: 55px;
   display: inline-block;
 }
+#home .iconlink .iconlink-box .img-box.position {
+  width: 35px;
+}
 #home .iconlink .iconlink-box .img-box img {
   width: 100%;
   height: 100%;
