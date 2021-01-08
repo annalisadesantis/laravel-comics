@@ -291,7 +291,8 @@ header .header-bottom .box-header-bottom input {
 
 #comic-details {
   background-color: #f6f6f6;
-  padding: 60px 0;
+  padding: 80px 0;
+  border-top: 1px solid #e3e3e3;
 }
 #comic-details .comic-details-box {
   display: flex;
@@ -334,6 +335,59 @@ header .header-bottom .box-header-bottom input {
 }
 #comic-details .comic-details-box .talent ul li a, #comic-details .comic-details-box .specs ul li a {
   color: #0282f9;
+}
+
+#footer-comic {
+  background-color: #f6f6f6;
+  border-top: 1px solid #e3e3e3;
+}
+#footer-comic .icon-container {
+  display: flex;
+}
+#footer-comic .icon-container .icon-box {
+  height: 70px;
+  width: calc(100% /4);
+  border: 1px solid #e3e3e3;
+  padding: 10px;
+}
+#footer-comic .icon-container .icon-box a {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #9f9f9f;
+}
+#footer-comic .icon-container .icon-box a:hover {
+  color: #0282f9;
+}
+#footer-comic .icon-container .icon-box .icon-box-image {
+  background-image: url("/images/cta-icons.png");
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+}
+#footer-comic .icon-container .icon-box:nth-child(1) .icon-box-image {
+  background-position: 0px 0;
+}
+#footer-comic .icon-container .icon-box:nth-child(1):hover .icon-box-image {
+  background-position: 0px 37px;
+}
+#footer-comic .icon-container .icon-box:nth-child(2) .icon-box-image {
+  background-position: 37px 0;
+}
+#footer-comic .icon-container .icon-box:nth-child(2):hover .icon-box-image {
+  background-position: 37px 37px;
+}
+#footer-comic .icon-container .icon-box:nth-child(3) .icon-box-image {
+  background-position: 74px 0;
+}
+#footer-comic .icon-container .icon-box:nth-child(3):hover .icon-box-image {
+  background-position: 74px 37px;
+}
+#footer-comic .icon-container .icon-box:nth-child(4) .icon-box-image {
+  background-position: 111px 0;
+}
+#footer-comic .icon-container .icon-box:nth-child(4):hover .icon-box-image {
+  background-position: 111px 37px;
 }
 
 footer .footer-top {

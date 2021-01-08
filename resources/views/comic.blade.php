@@ -133,4 +133,42 @@
             </div>
         </div>
     </section>
+    <section id="footer-comic">
+        <div class="small-container">
+            <div class="icon-container">
+                <div class="icon-box">
+                    <a href="#" class="uppercase">
+                       <span class="icon-box-text">
+                           Digital Comics
+                       </span>
+                       <span class="icon-box-image"></span>
+                   </a>
+                </div>
+                <div class="icon-box">
+                    <a href="#" class="uppercase">
+                        <span class="icon-box-text">
+                            Shop DC
+                        </span>
+                        <span class="icon-box-image"></span>
+                    </a>
+                </div>
+                <div class="icon-box">
+                    <a href="#" class="uppercase">
+                        <span class="icon-box-text">
+                            Comic Shop Locator
+                        </span>
+                        <span class="icon-box-image"></span>
+                    </a>
+                </div>
+                <div class="icon-box">
+                    <a href="#" class="uppercase">
+                        <span class="icon-box-text">
+                            Subscriptions
+                        </span>
+                        <span class="icon-box-image"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection

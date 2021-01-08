@@ -122,7 +122,8 @@
 
 #comic-details{
     background-color: #f6f6f6;
-    padding: 60px 0;
+    padding: 80px 0;
+    border-top: 1px solid #e3e3e3;
 
     .comic-details-box{
         display: flex;
@@ -153,7 +154,7 @@
                     font-size: 18px;
 
                     &:last-child {
-                        border-bottom: 1px solid #e3e3e3;;
+                        border-bottom: 1px solid #e3e3e3;
                     }
 
                     span:first-child {
@@ -175,7 +176,49 @@
 
         }
 
+    }
+}
 
+#footer-comic{
+    background-color: #f6f6f6;
+    border-top: 1px solid #e3e3e3;
 
+    .icon-container{
+        display: flex;
+
+        .icon-box{
+            height: 70px;
+            width: calc(100% /4);
+            border: 1px solid #e3e3e3;
+            padding: 10px;
+
+            a {
+                @include flex-row(space-between, flex-start);
+                color: #9f9f9f;
+
+                &:hover{
+                    color: $principal_color;
+                }
+            }
+
+            .icon-box-image {
+                background-image: url('/images/cta-icons.png');
+                display: inline-block;
+                width: $icon_box_image_size;
+                height: $icon_box_image_size;
+            }
+
+            @for $i from 0 through 3 {
+                &:nth-child(#{$i + 1}){
+                    .icon-box-image {
+                        background-position: $icon_box_image_size * $i 0;
+                    }
+
+                    &:hover .icon-box-image {
+                        background-position: $icon_box_image_size * $i $icon_box_image_size;
+                    }
+                }
+            }
+        }
     }
 }
