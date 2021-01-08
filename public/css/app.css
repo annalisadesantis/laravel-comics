@@ -25,6 +25,13 @@ a {
   text-transform: uppercase;
 }
 
+.jumbtron {
+  background-image: url(/images/jumbotron.jpg);
+  height: 300px;
+  background-position: top;
+  background-size: cover;
+}
+
 header .header-top {
   background-color: #0282f9;
 }
@@ -82,17 +89,11 @@ header .header-bottom .box-header-bottom input {
   font-weight: bold;
 }
 
-#home .jumbtron {
-  background-image: url(/images/jumbotron.jpg);
-  height: 300px;
-  background-position: top;
-  background-size: cover;
-}
 #home .comics {
   background-color: #1c1c1c;
   position: relative;
 }
-#home .comics small {
+#home small {
   padding: 10px 30px;
   background-color: #0282f9;
   color: #ffffff;
@@ -101,23 +102,22 @@ header .header-bottom .box-header-bottom input {
   font-size: 18px;
   font-weight: bold;
 }
-#home .comics .comics-container {
+#home .comics-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 40px 0px;
 }
-#home .comics .comics-container .comic {
+#home .comics-container .comic {
   width: 170px;
-  color: #ffffff;
   text-align: center;
   font-weight: bold;
 }
-#home .comics .comics-container .comic .comic-image {
+#home .comics-container .comic .comic-image {
   width: 170px;
   height: 170px;
 }
-#home .comics .comics-container .comic .comic-image img {
+#home .comics-container .comic .comic-image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -125,12 +125,15 @@ header .header-bottom .box-header-bottom input {
   -o-object-position: top;
      object-position: top;
 }
-#home .comics .comics-container .comic .comis-title {
+#home .comics-container .comic .comis-title {
   margin-top: 10px;
   font-weight: normal;
   font-size: 18px;
 }
-#home .comics .comics-container button {
+#home .comics-container .comic .comis-title span {
+  color: #ffffff;
+}
+#home .comics-container button {
   padding: 10px 50px;
   background-color: #0282f9;
   color: #ffffff;

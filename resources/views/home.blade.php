@@ -4,27 +4,25 @@
 {{-- contenuti --}}
 @section("content")
     <section id="home">
-        <div class="jumbtron">
-
-        </div>
+        @include("partials.jumbtron")
         <div class="comics">
             <div class="container">
                 <small class="uppercase">
                     Current Series
                 </small>
                 <div class="comics-container">
-                    @foreach ($comics as $comic)
+                    @foreach ($comics as $indice => $comic)
                         <div class="comic">
-                            <div class="comic-image">
-                                <a href="#">
+                            <a href="{{ route('comic-details', ['id' => $indice]) }}">
+                                <div class="comic-image">
                                     <img src="{{ $comic['thumb']}}" alt="{{ $comic['series']}}">
-                                </a>
-                            </div>
-                            <div class="comis-title">
-                                <span class="uppercase">
-                                    {{ $comic['series']}}
-                                </span>
-                            </div>
+                                </div>
+                                <div class="comis-title">
+                                    <span class="uppercase">
+                                        {{ $comic['series']}}
+                                    </span>
+                                </div>
+                            </a>
                         </div>
                     @endforeach
                     <button type="button" name="button" class="uppercase">
@@ -38,7 +36,7 @@
                 <div class="iconlink-box">
                     <a href="#">
                         <div class="img-box">
-                            <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-comics-digital-comics.png" alt="">
+                            <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-comics-digital-comics.png" alt="buy-comics-digital-comics">
                         </div>
                         <span class="uppercase">
                             Digital Comics
@@ -46,7 +44,7 @@
                     </a>
                     <a href="#">
                         <div class="img-box">
-                            <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-comics-merchandise.png" alt="">
+                            <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-comics-merchandise.png" alt="buy-comics-merchandise">
                         </div>
                         <span class="uppercase">
                             DC Merchandise
@@ -54,7 +52,7 @@
                     </a>
                     <a href="#">
                         <div class="img-box">
-                            <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-comics-subscriptions.png" alt="">
+                            <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-comics-subscriptions.png" alt="buy-comics-subscriptions">
                         </div>
                         <span class="uppercase">
                             Subscriptions
@@ -62,7 +60,7 @@
                     </a>
                     <a href="#">
                         <div class="img-box">
-                            <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-comics-shop-locator.png" alt="">
+                            <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-comics-shop-locator.png" alt="buy-comics-shop-locator">
                         </div>
                         <span class="uppercase">
                             Comic Shop Locator
@@ -70,7 +68,7 @@
                     </a>
                     <a href="#">
                         <div class="img-box">
-                            <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-dc-power-visa.svg" alt="">
+                            <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-dc-power-visa.svg" alt="buy-dc-power-visa">
                         </div>
                         <span class="uppercase">
                             Dc power visa

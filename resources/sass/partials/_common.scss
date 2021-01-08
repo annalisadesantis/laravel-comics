@@ -24,3 +24,10 @@ a{
 .uppercase{
     text-transform: uppercase;
 }
+
+.jumbtron{
+    background-image: url(/images/jumbotron.jpg);
+    height: 300px;
+    background-position:top;
+    background-size: cover;
+}
