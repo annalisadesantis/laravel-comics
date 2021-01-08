@@ -117,6 +117,7 @@ header .header-bottom .box-header-bottom input {
   width: 170px;
   text-align: center;
   font-weight: bold;
+  margin: 12px 0px;
 }
 #home .comics-container .comic .comic-image {
   width: 170px;
@@ -151,7 +152,7 @@ header .header-bottom .box-header-bottom input {
   font-family: "Teko", sans-serif;
 }
 #home .iconlink {
-  padding: 50px 0px;
+  padding: 30px 0px;
   background-color: #0282f9;
 }
 #home .iconlink .iconlink-box {
